@@ -58,7 +58,7 @@ jobs:
       - name: Test Staging
         run: | 
           echo "Test Staging... This will take about a few seconds."
-          echo "No issues found."
+          echo "No issues found. SUCCESS"
 
   ProductionDeploy:
     needs: StagingDeploy
