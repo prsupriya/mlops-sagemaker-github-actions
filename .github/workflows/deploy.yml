@@ -39,7 +39,7 @@ jobs:
             --sagemaker-project-name "$SAGEMAKER_PROJECT_NAME"
 
       - name: Store configs to artifacts
-        uses: actions/upload-artifact@67fbcbb121271f7775d2e7715933280b06314838
+        uses: actions/upload-artifact@c6a8a0183253e826323b915fac1a8e7f3cb97b42
         with:
           name: config-files
           path: |
