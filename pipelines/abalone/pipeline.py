@@ -6,7 +6,7 @@
                                               .
                                                . -(stop)
 
-Implements a get_pipeline(**kwargs) method. test this
+Implements a get_pipeline(**kwargs) method. test this again
 """
 import os
 
